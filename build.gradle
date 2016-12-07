@@ -7,6 +7,9 @@
  * user guide available at https://docs.gradle.org/3.2.1/userguide/tutorial_java_projects.html
  */
 
+group = 'easyfsm'
+version = '0.1'
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
@@ -32,3 +35,7 @@ dependencies {
     compile 'com.github.jitpack:gradle-simple:1.0'
 }
 
+jar {
+   manifest {
+   }
+}
